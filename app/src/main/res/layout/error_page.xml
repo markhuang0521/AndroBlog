@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_error_page"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:orientation="vertical"
+    >
+
+
+    <ImageView
+        android:id="@+id/iv_error_image"
+        android:layout_width="230dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/no_result" />
+
+    <TextView
+        android:id="@+id/tv_error_title"
+        style="@style/TextAppearance.AppCompat.Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:lineSpacingExtra="6dp"
+        android:text="Opps something went wrong ??" />
+
+    <TextView
+
+
+        android:id="@+id/tv_error_message"
+        style="@style/TextAppearance.AppCompat.Body1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:lineSpacingExtra="6dp"
+        android:lines="4"
+        android:text=" please check your Internet" />
+
+    <Button
+        android:id="@+id/btn_error_retry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="20dp"
+        android:background="@color/colorPrimary"
+        android:text="retry"
+        android:textColor="@color/white" />
+
+</LinearLayout>

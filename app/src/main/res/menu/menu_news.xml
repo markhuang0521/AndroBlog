@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_search"
+        android:icon="@drawable/ic_search"
+
+        android:title="search"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="collapseActionView|ifRoom"
+
+        app:theme="@android:style/Theme.Holo.Light.DarkActionBar" />
+    <item
+        android:id="@+id/menu_favorite"
+        android:icon="@drawable/ic_favorite"
+        android:title="favorite"
+        app:showAsAction="always"
+        app:theme="@android:style/Theme.Holo.Light.DarkActionBar" />
+    <item
+        android:id="@+id/menu_show_fav_articles"
+        android:title="show favorite articles"
+        app:showAsAction="never"
+        app:theme="@android:style/Theme.Holo.Light.DarkActionBar" />
+    <item
+
+        android:id="@+id/menu_news_share"
+        android:icon="@android:drawable/ic_menu_share"
+        android:title="share news"
+        app:theme="@android:style/Theme.Holo.Light.DarkActionBar" />
+    <item
+
+        android:id="@+id/menu_view_web"
+        android:title="view in web"
+        app:showAsAction="never"
+        app:theme="@android:style/Theme.Holo.Light.DarkActionBar" />
+    <item
+        android:id="@+id/menu_logout"
+        android:title="Logout"
+        app:showAsAction="never" />
+</menu>
